@@ -1,0 +1,695 @@
+/* ==========================================================================
+   Note
+   ========================================================================== */
+
+/**
+ * Font
+ * Jenis Font: Nunito Sans dan Rubik
+ * Heading: Nunito Sans
+ * Body: Rubik
+ *
+ * Warna
+ * Title: #151515
+ * Body: #999999
+ *
+ * Footer
+ * Background: #151515
+ * Color: #FFF;
+ *
+ * Button
+ * Standart: #4829B2
+ * Hover: #3b2293
+ *
+ * Menu
+ * Standart: rgba(0, 0, 0, 0.5)
+ * Hover: rgba(0, 0, 0, 0.7)
+ *
+ * Struktur
+ * Navbar
+ * Jumbotron
+ * Main Content
+ * 	Card
+ * Card
+ *
+ * Resource
+ * https://webuildthemes.com/go/
+ */
+
+/* ==========================================================================
+   End of Note
+   ========================================================================== */
+
+/* ==========================================================================
+   Font
+   ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700&display=swap");
+
+/* ==========================================================================
+   Enf of Font
+   ========================================================================== */
+
+/* ==========================================================================
+   Component
+   ========================================================================== */
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+	color: #999999;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+h1, h2, h3, h5 {
+	font-family: 'Nunito Sans', sans-serif;
+	color: #151515;
+	font-weight: 400;
+}
+
+a {
+	color: #2FC1FF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2FC1FF;
+	text-decoration: none;
+}
+
+.btn, .btn-primary.disabled {
+	background-color: #2FC1FF;
+	border-color: #2FC1FF;
+	color: white;
+}
+
+.btn:hover {
+	background-color: #2FC1FF;
+	border-color: #2FC1FF;
+}
+
+.fas, .far {
+	margin-right: 0.5em;
+	color: #2FC1FF;
+}
+
+.fa-map-marker-alt {
+	margin-right: 0.6em;
+	color: #2FC1FF;
+}
+
+/* ==========================================================================
+   End of Component
+   ========================================================================== */
+
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+
+.navbar {
+	background-color: #2FC1FF;
+	padding: 1em;
+    font-size: x-large;
+}
+
+.navbar .navbar-brand {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 24px;
+	color: #151515;
+	font-weight: bold;
+	letter-spacing: -0.02em;
+}
+
+.navbar .navbar-brand:hover {
+	color: #151515;
+}
+
+.navbar-nav .nav-item .nav-link {
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: 400;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+	color: rgba(0, 0, 0, 0.7);
+}
+
+/* ==========================================================================
+   End of Navbar
+   ========================================================================== */
+
+/* ==========================================================================
+   Jumbotron
+   ========================================================================== */
+
+.jumbotron {
+	background-color: #fff;
+}
+
+.jumbotron h1 {
+	margin-bottom: 0.5em;
+	font-size: 3.75rem;
+	font-weight: 400;
+}
+
+.jumbotron p {
+	line-height: 2;
+	margin-bottom: 2em;
+	font-weight: 400;
+}
+
+/* ==========================================================================
+   End of Jumbotron
+   ========================================================================== */
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content {
+	padding: 4em 0;
+	background-color: #F5F5F5;
+}
+.content h2 {
+	padding-bottom: 1em;
+	font-size: 2.5rem;
+}
+
+.content .see-all {
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+	color: #2FC1FF;
+}
+
+.content .see-all:hover {
+	color: #2FC1FF;
+}
+
+/* ==========================================================================
+   End of Content
+   ========================================================================== */
+
+/* ==========================================================================
+   Card
+   ========================================================================== */
+
+.card {
+	border: 0 none;
+	box-shadow: 0 1px 5px #dcdcdc;
+	transition: opacity 0.4s;
+}
+
+.card:hover {
+	opacity: 0.8;
+}
+
+.card .card-body .card-title {
+	font-weight: 400;
+	margin-bottom: 0.5em;
+}
+
+.card .card-body .card-text {
+	margin-bottom: 0.5em;
+}
+
+/* ==========================================================================
+   End of Card
+   ========================================================================== */
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer {
+	background-color: #151515;
+	padding: 2em 0;
+}
+
+footer .container {
+	padding: 0;
+}
+
+footer .nav .nav-item .nav-link {
+	transition: 0.3s;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+footer .nav .nav-item .nav-link:hover {
+	color: #fff;
+}
+
+/* ==========================================================================
+   End of Footer
+   ========================================================================== */
+
+/* ==========================================================================
+   Detail
+   ========================================================================== */
+
+.detail {
+	margin-top: 2em;
+}
+
+.detail .head {
+	margin-bottom: 5em;
+}
+
+.detail .head img {
+	width: 600px;
+	height: 337px;
+	object-fit: cover;
+}
+
+.detail h1 {
+	font-weight: 400;
+	margin-bottom: 0.5em;
+}
+
+.detail .head p {
+	margin-bottom: 0.3em;
+	font-size: 1.2em;
+}
+
+.detail .head a {
+	text-transform: uppercase;
+	margin-top: 1.5em;
+}
+
+.detail .body {
+	background: #F5F5F5;
+}
+
+.detail .body h3 {
+	font-weight: 400;
+	margin: 2em 0 1em 0;
+}
+
+.detail .body p {
+	font-size: 1.2em;
+	margin-bottom: 3em;
+	text-align: justify;
+}
+
+/* ==========================================================================
+   End of Detail
+   ========================================================================== */
+
+/* ==========================================================================
+   Login and Register
+   ========================================================================== */
+
+/* Card
+   ========================================================================== */
+
+.login .card:hover, .register .card:hover {
+	opacity: 1;
+}
+
+.login .card .card-body .card-title, .register .card .card-body .card-title {
+	font-weight: 300;
+}
+
+/* End of Card
+   ========================================================================== */
+
+/* ==========================================================================
+   End of Login and Register
+   ========================================================================== */
+
+   ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+    color: #2FC1FF;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #2FC1FF;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #2FC1FF;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #2FC1FF;
+    padding: 13px 20px;
+    border: 1px solid #2FC1FF;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #2FC1FF;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #2FC1FF;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #2FC1FF;
+}
+
+/* ==========================================================================
+   JUmbo baru
+   ========================================================================== */
+   html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .jumbotron {
+    font-family: 'Montserrat', sans-serif;
+    padding: 150px 0;
+    background: url(https://uns.ac.id/id/wp-content/uploads/FMIPA-UNS-Menerima-Kunjungan-dari-Siswa-SMA-Muhammadiyah-18-Jakarta-2-1024x576.jpeg) center center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    line-height: 400px;
+    /*https://www.zenius.net/blog/wp-content/uploads/2021/01/FOTO-GEDUNG-REKTORAT-UNS.jpg*/
+
+  }
+
+  .jumbotron h1 {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 76px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .jumbotron p {
+    font-family: serif;
+    font-size: 30px;
+    font-style: italic;
+    margin: 0 0 30px;
+    font-weight: bolder;
+  }
+
+  .jumbotron a{
+    margin-bottom: 10px;
+  }
+
+  .button {
+    display: inline-block;
+    border: 2px solid #fff;
+    /* padding: 10px 20px; */
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  .button:hover {
+    background: #fff;
+    color: #000;
+  }
+
+  marquee {
+   margin-top: 5px;
+   padding: 0px;
+   background-color: #2FC1FF;
+   height: 35px;
+   color: white;
+   font-size: 20px;
+   line-height: 5px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+marquee p {
+   z-index: -1;
+}
+
+.cssmarque h1 {
+    margin-top: 5px;
+   padding: 0px;
+   background-color: #2FC1FF;
+   height: 45px;
+   color: #CF3325;
+   font-size: 20px;
+   line-height: 5px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* ===== Pagination Theme: SeminarGO Blue ===== */
+.pagination{
+  justify-content: center;
+  gap: 8px;
+}
+
+.pagination .page-item .page-link{
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-weight: 800;
+  border: 1px solid rgba(37,99,235,.22);
+  color: #2563eb;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(2,6,23,.06);
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease, border-color .15s ease;
+}
+
+.pagination .page-item .page-link:hover{
+  background: rgba(37,99,235,.08);
+  border-color: rgba(37,99,235,.35);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(37,99,235,.14);
+  text-decoration: none;
+}
+
+.pagination .page-item.active .page-link{
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #fff;
+  box-shadow: 0 16px 40px rgba(37,99,235,.22);
+}
+
+.pagination .page-item.disabled .page-link{
+  opacity: .55;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* hilangkan fokus bawaan bootstrap yang kadang bikin ring ungu */
+.pagination .page-link:focus{
+  box-shadow: 0 0 0 .2rem rgba(37,99,235,.18);
+}
+
+.sg-chatbot{ position: fixed; right: 18px; bottom: 18px; z-index: 9999; }
+.sg-chatbot__btn{
+  width: 54px; height: 54px; border: 0; border-radius: 999px;
+  background:#25D366; color:#fff; font-size: 22px;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow: 0 16px 40px rgba(2,6,23,.18);
+  cursor:pointer; transition: transform .15s ease, box-shadow .15s ease;
+}
+.sg-chatbot__btn:hover{ transform: translateY(-2px); box-shadow: 0 22px 60px rgba(2,6,23,.22); }
+
+.sg-chatbot__panel{
+  position: absolute; right: 0; bottom: 70px;
+  width: 320px; max-width: calc(100vw - 36px);
+  background:#fff; border-radius: 18px;
+  border: 1px solid rgba(15,23,42,.10);
+  box-shadow: 0 20px 60px rgba(2,6,23,.16);
+  overflow:hidden;
+  display:none;
+}
+.sg-chatbot__panel.is-open{ display:block; }
+
+.sg-chatbot__head{
+  padding: 12px 14px;
+  background: linear-gradient(90deg, rgba(37,99,235,.12), rgba(37,99,235,.06));
+  display:flex; align-items:center; justify-content:space-between;
+}
+.sg-chatbot__title{ font-weight: 900; color:#0f172a; }
+.sg-chatbot__close{
+  border:0; background:transparent; font-size:22px; line-height:1;
+  color: rgba(15,23,42,.65); cursor:pointer;
+}
+
+.sg-chatbot__body{ padding: 14px; display:flex; flex-direction:column; gap:10px; }
+.sg-chatbot__bubble{
+  background: rgba(15,23,42,.04);
+  border: 1px solid rgba(15,23,42,.06);
+  border-radius: 14px;
+  padding: 10px 12px;
+  color: rgba(15,23,42,.78);
+  font-size: 13px;
+}
+
+.sg-chatbot__item{
+  width:100%;
+  text-align:left;
+  padding: 12px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(15,23,42,.10);
+  background:#fff;
+  font-weight: 800;
+  color:#0f172a;
+  cursor:pointer;
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+}
+.sg-chatbot__item:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 12px 30px rgba(2,6,23,.10);
+  background: rgba(37,99,235,.04);
+}
+
+.sg-chatbot__item--primary{
+  background:#2563eb; border-color:#2563eb; color:#fff;
+}
+.sg-chatbot__item--primary:hover{
+  background:#1d4ed8;
+}
+
+.sg-chatbot__btn{
+  background: #2563eb;
+}
+
+.sg-chatbot__btn i{
+  color: #fff;
+}
+
+/* Pastikan navbar berada di atas banner */
+.navbar {
+  position: relative;
+  z-index: 1050;
+}
+
+/* Pastikan dropdown lebih tinggi lagi */
+.dropdown-menu {
+  z-index: 2000;
+}
