@@ -1,5 +1,5 @@
 # laravel-event
-Keagamaan Event Website (Keagamaan) with Laravel.
+Seminar GO with Laravel.
 
 ## Installation
 
@@ -41,7 +41,7 @@ php artisan db:seed
 Demo Website: -.
 
 ## Authors
-Aufa Billah.
+Julian Dewanto.
 
 ## License
 GNU General Public License v3.0
